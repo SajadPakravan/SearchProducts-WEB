@@ -1,5 +1,5 @@
 <div id="popup" class="popup">
-  
+
   <div class="popup-content">
     <div class="popup-header">
       <button id="closePopup" class="close-btn"><span class="mdi mdi-close-circle"></span></button>
@@ -74,7 +74,7 @@
             </ul>
           </div>
           <div class="btn">
-            <button type="button" id="buy" class="p-btn" >خرید کردن</button>
+            <button type="button" id="buy" class="p-btn">خرید کردن</button>
           </div>
         </div>
 
@@ -109,7 +109,7 @@
             </ul>
           </div>
           <div class="btn">
-            <button type="button" id="buy" class="p-btn" >خرید کردن</button>
+            <button type="button" id="buy" class="p-btn">خرید کردن</button>
           </div>
         </div>
 
@@ -118,5 +118,5 @@
     </section>
 
   </div>
-  </div>
+</div>
 </div>
