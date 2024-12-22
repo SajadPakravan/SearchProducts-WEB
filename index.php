@@ -30,6 +30,7 @@
         </form>
       </div>
     </search>
+    <hr>
 <section class="products">
     <?php
     $c = 14;
