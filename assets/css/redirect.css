@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "IranYekan";
+  src: url("../fonts/iranyekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: IranYekan;
+  font-size: 14px;
+  color: #0c0c0c;
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  margin: 10px 0;
+  color: #0c0c0c;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  margin: 10px 0;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.message {
+  text-align: center;
+}

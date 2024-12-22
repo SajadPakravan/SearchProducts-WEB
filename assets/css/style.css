@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "IranYekan";
+  src: url("../fonts/iranyekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: IranYekan;
+  font-size: 14px;
+  color: #0c0c0c;
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  margin: 10px 0;
+  color: #0c0c0c;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  margin: 10px 0;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/****************Logo*****************/
+.logo {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/***********Search*******************/
+.search-cover {
+  padding: 10px;
+  height: 70px;
+}
+
+.search-bar {
+  align-items: center;
+  width: 600px;
+  min-width: 300px;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.search-bar form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #242424;
+  background-color: #e6e6e6;
+  font-weight: bold;
+  direction: rtl;
+}
+
+.search-bar input::placeholder {
+  font-weight: bold;
+  color: #81858b;
+  direction: rtl;
+}
+
+.search-bar button {
+  height: 100%;
+  background-color: #e6e6e6;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.mdi {
+  color: gray;
+  font-size: 1.9em;
+}
+
+/*****************Products*********************/
+#product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 3%;
+  border: 1px solid #f0f0f1;
+  transition: 1s;
+}
+
+.title-pic h3 {
+  text-align: center;
+}
+
+#product img {
+  width: 300px;
+  min-width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+.details {
+  width: 50%;
+}
+
+.title-details {
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-details .mdi {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.details li {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  gap: 20px;
+  text-align: right;
+}
+
+.title-detail {
+  color: #81858b;
+  word-wrap: break-word;
+}
+
+.de-detail {
+  color: #0c0c0c;
+  text-align: right;
+  word-wrap: break-word;
+  border-bottom: 1px solid #f0f0f1;
+}
+
+.details li:last-child .de-detail {
+  border-bottom: none;
+}
+
+.p-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+}
+
+#buy {
+  background-color: #ef4056;
+}
+
+#set {
+  background-color: #056c9c;
+  transition: 0.5s;
+}
+
+#product.clicked {
+  background-color: #e6e6e6;
+}
+
+#set.clicked {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid #0c0c0c;
+}
